@@ -4,7 +4,7 @@
 
 * file **key.txt** cointain all answers of the questions
 
-* **take_answers.py** take answers and make a file **answers.txt** of your given answers (you can give answers in [a/b/c/d] or leave it blank, code can be update for negative markings later)
+* **take_answers.py** take answers and make a file **answers.txt** of your given answers and show **percentage** (you can give answers in [a/b/c/d] or leave it blank, code can be update for negative markings later)
 
 #un-comment these line in **take_ans.py** for hard checking
 ```
