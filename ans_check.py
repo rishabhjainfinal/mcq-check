@@ -9,9 +9,8 @@ def per_cal(type='simple',ansfile='answers.txt',keyfile="key.txt"):
 			per +=1
 		else:
 			if type != 'simple':
-				per -= 0.5
-			else :
-				pass
+				if ans[i] != '()':
+					per -= 0.5
 
 	os.system("cls")
 	marks=round((per/len(key))*100,4)
@@ -19,4 +18,4 @@ def per_cal(type='simple',ansfile='answers.txt',keyfile="key.txt"):
 	print()
 	input('enter to end task !!! ')
 
-# per_cal()
+# per_cal(type='hard')
